@@ -241,7 +241,6 @@ p:last-child {
   transition: all 0.3s;
   box-shadow: 4px 4px 15px #a40803,
       -4px -4px 15px #a40803;
-  background: #001233;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
