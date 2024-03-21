@@ -206,8 +206,50 @@ p:last-child {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.buttons a {
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 15px #a20803,
+      -2px -2px 15px #a40803;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border-radius: 12px 0 12px 0;
+  -webkit-border-radius: 12px 0 12px 0;
+  -moz-border-radius: 12px 0 12px 0;
+  -ms-border-radius: 12px 0 12px 0;
+  -o-border-radius: 12px 0 12px 0;
+  padding: 20px;
+  color: black !important;
+ 
+}
+
+.buttons-a {
+  background-image: url(../img/btngray.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.buttons-b {
+  background-image: url(../img/btn_yellow_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.buttons a:hover {
+  transition: all 0.3s;
+  box-shadow: 4px 4px 15px #a40803,
+      -4px -4px 15px #a40803;
+  background: #001233;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
 .background:first-child {
-  background-image: url(../img/bg1.jpg);
+  background-image: url(../img/main_bottom_bg.jpg);
   -webkit-transform: translateY(-15vh);
   transform: translateY(-15vh);
 }
@@ -1130,7 +1172,7 @@ body {
   left: 100%;
   margin-left: -100px;
   height: 200%;
-  background: rgba(145, 255, 255, 0.65);
+  background: #a20803;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   -ms-transition: all ease .5s;
@@ -1148,8 +1190,12 @@ body {
   transform: rotate(-45deg);
 }
 
+#color-l2{
+  color: #090a0d !important;
+}
+
 .menu-outer:hover {
-  background: rgba(40, 154, 154, 0.95);
+  background: black;
   left: 0;
   margin-left: 0;
   -webkit-transform: rotate(0deg);
